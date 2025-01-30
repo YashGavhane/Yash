@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Gavhane - Professional Portfolio</title>
+    <style>
+    
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #000080;
+            background-color: #FFFF00;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(90deg, #333, #555);
+            color: #00FFFF;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+        }
+        nav {
+            background: #222;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        nav ul li {
+            margin: 0;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: block;
+            font-weight: bold;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: #ffa500;
+            color: #333;
+        }
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #444;
+        }<img src="images/my-photo.jpg" alt="My Photo" width="300">
+        .about img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .skills, .achievements, .goals ul {
+            list-style: none;
+            padding: 0;
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .skills li, .achievements li, .goals li {
+            background: #fff;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: linear-gradient(90deg, #555, #333);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        footer ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 10px 0;
+        }
+        footer ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+        footer ul li a:hover {
+            color: #ffa500;
+        }
+        footer p {
+            margin: 0;
+        }
+
+        /* Media Query for Mobile Devices */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            header p {
+                font-size: 1rem;
+            }
+            nav ul {
+                flex-direction: column;
+            }
+            nav ul li a {
+                padding: 10px 0;
+            }
+            .gallery img {
+                max-width: 100%;
+            }
+            .section h2 {
+                font-size: 1.5rem;
+            }
+            .skills li, .achievements li, .goals li {
+                padding: 10px;
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Yash Gavhane</h1>
+    <p>Aspiring Soldier | Sports Enthusiast | Creative Artist</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#goals">Goals</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<section id="about" class="section about">
+    <h2>About Me</h2>
+    <p>
+        Hello, I’m Gavhane Yash, an 8th-standard student at Kids Kingdom Academy, Sonai. Sports, art, and photography are my passions, with volleyball being my favorite game. My ultimate dream is to serve my country as a soldier, embodying discipline, bravery, and honor.
+    </p>
+    <img src="https://drive.google.com/uc?export=view&id=1dJueDuga0Af8lFUZMTB23gwezDW0Ybz8" alt="Yash Gavhane">
+
+</section>
+
+<section id="skills" class="section">
+    <h2>Skills</h2>
+    <ul class="skills">
+        <li>Sportsmanship and teamwork</li>
+        <li>Creative art and photography</li>
+        <li>Leadership and discipline</li>
+        <li>Quick decision-making</li>
+        <li>Time management and focus</li>
+    </ul>
+</section>
+
+<section id="achievements" class="section">
+    <h2>Achievements</h2>
+    <ul class="achievements">
+        <li>Won Best Player Award in Volleyball (2023)</li>
+        <li>Secured First Place in Art Competition at School (2022)</li>
+        <li>Represented School in Kho-Kho Championship (2023)</li>
+        <li>Organized a school-level sports meet (2022)</li>
+        <li>Recognized as a disciplined student by teachers</li>
+    </ul>
+</section>
+
+<section id="goals" class="section">
+    <h2>My Goals</h2>
+    <ul class="goals">
+        <li><strong>Short-Term:</strong> Enhance my volleyball skills and excel academically.</li>
+        <li><strong>Mid-Term:</strong> Participate in more competitions and develop my artistic skills further.</li>
+        <li><strong>Long-Term:</strong> Serve my country as a soldier and make a meaningful impact.</li>
+    </ul>
+</section>
+
+<section id="gallery" class="section">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <img src="https://via.placeholder.com/300x200.png?text=Artwork+1" alt="Artwork 1">
+        <img src="https://via.placeholder.com/300x200.png?text=Photography+1" alt="Photography 1">
+        <img src="https://via.placeholder.com/300x200.png?text=Sports+Moment" alt="Sports Moment">
+    </div>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: yashgavhane2010@gmail.com</p>
+    <p>Phone: 9112968133</p>
+    <p>Message me online: 9112968133</p>
+</section>
+
+<footer>
+    <ul>
+        <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+        <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+        <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+    </ul>
+    <p>&copy; 2024 Yash Gavhane. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
